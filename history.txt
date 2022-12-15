@@ -1,0 +1,28 @@
+q
+
+
+
+
+echo hi hi hi > yy.txt
+
+
+
+q
+
+
+
+echo hi hi hi hi hi hi > yy.txt
+
+
+echo hi
+
+
+q
+
+
+echo hi hi
+
+q
+
+echo hi >> yy.txt
+q
