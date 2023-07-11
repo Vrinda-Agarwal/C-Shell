@@ -85,7 +85,7 @@ void func(char *vrinda)
                 if (PINFO.bg_status[i] == 'S')
                 {
                     printf("[%d] \n", PINFO.bg_index);
-                    printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarrray[i]);
+                    printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarray[i]);
                 }
             }
         }
@@ -107,7 +107,7 @@ void func(char *vrinda)
                     fscanf(file, "%d %s %c", &temp, temp1, &PINFO.bg_status[i]);
                 }
                 printf("[%d] \n", PINFO.bg_index);
-                printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarrray[i]);
+                printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarray[i]);
             }
         }
     }
