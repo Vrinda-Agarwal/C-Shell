@@ -61,7 +61,7 @@ void func(char *vrinda)
                 if (PINFO.bg_status[i] == 'R')
                 {
                     printf("[%d] \n", PINFO.bg_index);
-                    printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarrray[i]);
+                    printf("%s [%d]\n", PINFO.bg_names[i], PINFO.bgarray[i]);
                 }
             }
         }
